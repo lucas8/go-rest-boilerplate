@@ -1,0 +1,6 @@
+postgres:
+  host: localhost
+  port: 1234
+  user: postgres
+  password: postgres
+  dbname: test

@@ -1,0 +1,26 @@
+basePath: /
+host: localhost:8080
+info:
+  contact:
+    email: support@swagger.io
+    name: API Support
+    url: http://www.swagger.io/support
+  description: This is a sample server.
+  license:
+    name: Apache 2.0
+    url: http://www.apache.org/licenses/LICENSE-2.0.html
+  termsOfService: http://swagger.io/terms/
+  title: Example API
+  version: "1.0"
+paths:
+  /status/health:
+    get:
+      responses:
+        "200": {}
+      summary: Return API health
+  /status/readiness:
+    get:
+      responses:
+        "200": {}
+      summary: Return API readiness
+swagger: "2.0"
